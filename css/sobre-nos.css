@@ -1,0 +1,275 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: url("../assets/imagens/Fundo\ 2.1.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 100%; 
+    margin: 0;
+
+    position: relative;
+    .suporte{
+        padding-bottom: -100px;
+    }
+    
+}
+
+
+
+header {
+    background-color: #3f6c46;
+    padding: 7px 20px;
+}
+
+.sub-cabecalho{
+    height: 10px;
+    width: 100%;
+    background-color: #D0E3CC;
+    border: none;
+    margin-top: -10;
+    border: none;
+
+}
+
+.quadrado-cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 175px;
+}
+
+.nav-menu {
+    display: flex;
+}
+
+.menu-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+    width: 135px;
+    height: 85px;
+    border-radius: 40px;
+    background-color: #D0E3CC;
+    margin-left: 20px;
+}
+
+.menu-item:hover {
+    background-color: #994636;
+}
+
+.menu-item img {
+    width: 40px;
+    height: 40px;
+}
+
+.menu-item h4 {
+    margin-top: 5px;
+    color: #f5a623;
+    font-size: 14px;
+}
+
+.quadrado-bandeira{
+    width: 40px;
+    margin-top: -100px;
+}
+
+footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin-top: 40px;
+    height: 110px;
+    background-color: rgb(255, 255, 255);
+}
+
+.rodape_linha{
+    height: 20px;
+    width: 100%;
+    background-color: #D0E3CC;
+}
+
+.conteudo_footer{
+    display: flex;
+    flex-direction: row;
+}
+
+.seta{
+    height: 250px;
+    width: 250px;
+    margin-top: -222px;
+    margin-left: 100px;
+}
+
+.direitos{
+    display: flex;
+    font-size: 12px;
+    align-items: center;
+    flex-direction: column;
+}
+
+h5 {
+    font-size: 12px;
+    bottom: 0;
+    margin-top: -20px;
+}
+
+.l_c{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-content: space-around;
+    margin-top: -10px;
+}
+
+.localizacao{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-left: 3px;
+    width: 279px;
+}
+
+.localizacao img{
+    width: 30px;
+    height: 30px;
+}
+
+.texto_localizacao{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    margin-left: 3px;
+}
+
+.contato {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.contato img{
+    width: 30px;
+    height: 30px;
+    margin-top: -5px;
+    margin-left: 3px;
+}
+
+.texto_contato{
+    display: flex;
+    flex-direction: column;
+    margin-left: 3px;
+}
+
+.email{
+    display: flex;
+    margin-left: 240px;
+    margin-top: 20px;
+}
+
+
+.email img{
+    width: 30px;
+    height: 30px;
+}
+
+.texto_email{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+}
+
+.sociais{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: 435px;
+    margin-bottom: 13px;
+}
+
+.i_w{
+    display: flex;
+    flex-direction: row;
+}
+
+.i_w img{
+    display: flex;
+    flex-direction: row;
+    margin-left: 5px;
+    justify-content: space-between;
+}
+
+.f_l{
+    display: flex;
+    flex-direction: row;
+}
+
+.f_l img{
+    display: flex;
+    flex-direction: row;
+    margin-left: 5px;
+    justify-content: space-between;
+}
+
+footer h5{
+    margin-left: 450px;
+}
+
+.sociais img{
+    height: 40px;
+    width: 40px;
+}
+
+.sociais{
+    .linkedin{
+        width: 42px;
+        height: 41px;
+    }
+}
+
+.logo-servicos{
+    width: 200px;
+    margin-top: -65px;
+}
+
+.titulo-pagina {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+.paragrafo-um {
+    margin-left: 140px;
+    font-size: 20px
+}
+
+.paragrafo-dois {
+    margin-left: 140px;
+    margin-top: 30px;
+    font-size: 20px
+}
+
+.paragrafo-tres {
+    margin-left: 140px;
+    margin-top: 30px;
+    font-size: 20px
+}
+
+.paragrafo-quatro {
+    margin-left: 140px;
+    margin-top: 30px;
+    font-size: 20px
+}
