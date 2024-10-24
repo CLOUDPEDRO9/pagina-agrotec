@@ -239,7 +239,7 @@ footer h5{
     }
 }
 
-.logo-sobre-nos{
+.logo-servicos{
     width: 200px;
     margin-top: -65px;
 }
@@ -254,23 +254,56 @@ footer h5{
 
 .paragrafo-um {
     margin-left: 140px;
-    font-size: 20px
+    font-size: 15px
 }
 
 .paragrafo-dois {
     margin-left: 140px;
-    margin-top: 30px;
-    font-size: 20px
+    margin-top: 10px;
+    font-size: 15px
 }
 
 .paragrafo-tres {
     margin-left: 140px;
-    margin-top: 30px;
-    font-size: 20px
+    margin-top: 10px;
+    font-size: 15px
 }
 
-.paragrafo-quatro {
-    margin-left: 140px;
-    margin-top: 30px;
-    font-size: 20px
+.exemplos{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: 435px;
+    margin-bottom: 13px;
+}
+
+.s1_s2{
+    display: flex;
+    flex-direction: row;
+}
+
+.s1_s2 img{
+    display: flex;
+    flex-direction: row;
+    margin-left: 5px;
+    justify-content: space-between;
+}
+
+.s3_s4{
+    display: flex;
+    flex-direction: row;
+}
+
+.s3_s4 img{
+    display: flex;
+    flex-direction: row;
+    margin-left: 5px;
+    justify-content: space-between;
+}
+
+.exemplos img{
+    height: 40px;
+    width: 40px;
 }
